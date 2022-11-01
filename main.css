@@ -1,0 +1,183 @@
+html, body{
+  margin: 0%;
+  padding: 0%;
+  border: 0ch;
+  left: 0%;
+  top: 0%;
+  background-image: url(back.png);
+  background-size: 100% 100%;
+}
+header {
+color: #FFFFFF;
+font-size: 10 px;
+padding-top: 10px;
+margin-left: 20px;
+}
+.headings{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.headings h2{
+  font-size: 35px;
+  padding: 5px 15px;
+  text-shadow: 2px 2px 5px red 2px 2px 5px;
+}
+.headings h1{
+  font-size: 60px;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+.headings h3{
+  font-size: 25px;
+  margin-top: -20px;
+  margin-left: 80px;
+  color: rgb(150, 0, 0);
+}
+.headings span{
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.links p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#FFFFFF;
+  background-color: transparent;
+  text-decoration: none;
+  margin-left: 50%;
+  margin-top: -25%;
+  border-radius: 25px;
+}
+.links a{
+  color: #FFFFFF;
+  background-color: rgb(100, 0, 0);
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  border: 2px solid rgb(100, 0, 0);
+  border-radius: 40px;
+  transition: all 0.7s;
+}
+.links a:hover {
+background-color: red;
+/* text-decoration: 2px underline white ; */
+}
+.links a:active {
+background-color: blue;
+}
+#selfie{
+  width: 50%;
+  float: right;
+}
+.About{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: none;
+  margin-top: 25%;
+  margin-left: 30px;
+}
+.About h3 {
+  font-weight: bold;
+  font-size: 30px;
+  color: red;
+  margin-left: 40%;
+  margin-bottom: -5px;
+}
+.About p {
+  color: #FFFFFF;
+ margin: 40px 50px 10px 200px;
+  max-width: 1000px;
+  display: inline-block;
+  text-align:justify; 
+  letter-spacing: 2px;
+}
+.NMD{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: none;
+  margin-top: 20%;
+  margin-left: 30px;
+}
+.NMD h3 {
+  font-weight: bold;
+  font-size: 30px;
+  color: red;
+  margin: -10% 0px 0px 39.2%;
+}
+.NMD p {
+  color: #FFFFFF;
+  max-width: 1000px;
+  margin:40px 50px 10px 180px;
+  display: inline-block;
+  text-align: justify; 
+  letter-spacing: 2px;
+}
+.hobbies {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.hobbies h3{
+  margin-top: 10%;
+  margin-left: 41%;
+}
+.esports li {
+color: red;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+margin-left: 12.7%;
+margin-top: 4%;
+}
+.esports p {
+  text-indent: 80px;
+  color: #FFFFFF;
+  max-width: 1000px;
+  margin: 15px 0px 10px 170px;
+  display: inline-block;
+  text-align: justify; 
+  letter-spacing: 2px;
+}
+.cricket li {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 14%;
+  margin-top: 4%;
+}
+.cricket p {
+  text-indent: 80px;
+  color: #FFFFFF;
+  max-width: 1000px;
+  margin: 15px 0px 10px 210px;
+  display: inline-block;
+  text-align: justify; 
+  letter-spacing: 2px;
+}
+.html li {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 14%;
+  margin-top: 4%;
+}
+.html p {
+  text-indent: 80px;
+  color: #FFFFFF;
+  max-width: 1000px;
+  margin: 15px 0px 10px 210px;
+  display: inline-block;
+  text-align: justify; 
+  letter-spacing: 2px;
+}
+footer{
+color: #FFFFFF;
+margin-left: 88%;
+margin-bottom: 1%;
+}
