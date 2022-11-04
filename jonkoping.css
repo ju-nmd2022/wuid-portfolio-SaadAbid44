@@ -99,7 +99,7 @@ transition: 0.4s;
 
   grid-area: hero;
   min-height: 500px;
-  background:url(/info.jpeg) ;
+  background: url(info.jpeg) ;
   background-size: cover;
   background-position: center;
   padding: 50px;
@@ -145,7 +145,7 @@ text-align: justify;
 .top-box-a {
 
 grid-area: top-box-a;
-background:url(/university.jpg) ;
+background: url(university.jpg) ;
 background-size: cover;
 background-position: center;
 box-shadow: var(--shadow);
@@ -172,7 +172,7 @@ text-align: center;
 .top-box-b {
 
   grid-area: top-box-b;
-  background:url(/27718385\ \(1\).jpg) ;
+  background: url(27718385\ \(1\).jpg) ;
   background-size: cover;
   background-position: center;
   box-shadow: var(--shadow);
@@ -287,7 +287,7 @@ footer{
 }
 
 /* Media Queries */
-@media(max-width: 600px) {
+@media screen and (max-width: 600px) {
 
   .top-container {
     grid-template-areas: 
@@ -327,7 +327,7 @@ font-size: 20px;
 
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
 
   .top-container {
     grid-template-areas: 
