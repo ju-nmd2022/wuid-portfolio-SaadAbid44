@@ -172,7 +172,7 @@ text-align: center;
 .top-box-b {
 
   grid-area: top-box-b;
-  background: url(27718385\ \(1\).jpg) ;
+  background: url(/Images/27718385\ \(1\).jpg) ;
   background-size: cover;
   background-position: center;
   box-shadow: var(--shadow);
