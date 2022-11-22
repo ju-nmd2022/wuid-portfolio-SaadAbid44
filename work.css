@@ -54,7 +54,6 @@
     text-align: center;
     color: var(--light);
     font-size: 18px;
-    transition: 0.4s;
     border-radius: 25px;
     background-size: 400%;
     transform: translate(-50%, 50%);
