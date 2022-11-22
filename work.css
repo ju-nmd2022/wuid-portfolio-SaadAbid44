@@ -30,7 +30,7 @@
 
   display: grid;
   gap: 20px;
-  padding: 0%;
+  padding-left: 10%;
   list-style: none;
   grid-template-columns: repeat(4, 1fr);
   
@@ -47,30 +47,32 @@
 }
 
 .links ul li a {
-    background: var(--main);
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
     display: grid;
     text-decoration: none;
     padding: 15px;
     text-align: center;
-    color: var(--dark);
+    color: var(--light);
     font-size: 18px;
-    box-shadow: var(--shadow); 
     transition: 0.4s;
     border-radius: 25px;
+    background-size: 400%;
+    transform: translate(-50%, 50%);
     
     }
+
+.links ul li a:hover {
+
+animation: animate-links 8s linear infinite;
+
+}
     
-    .links ul li a:hover {
-    
-      background: purple;
-      color: var(--light);
-      
-    }
 
 .header-text {
   color: var(--light);
   margin-top: 7%;
   font-size: 25px;
+  background-color: transparent;
 }
 
 .header-text h1 {
@@ -95,17 +97,13 @@ color: red;
 .row {
 
 display: grid;
+grid-template-columns: repeat(2, 1fr);
 justify-content: space-between;
 flex-wrap: wrap;
-grid-template-areas: 'row';
   
 }
 
-.row .col-1 {
 
-flex-basis: 30%;
-
-}
 
 .bottom-container .row img {
 
@@ -116,10 +114,6 @@ box-shadow: var(--shadow);
 
 }
 
-.row .col-2 {
-
-  flex-basis: 60%;
-}
 
 .title1 {
 
@@ -274,6 +268,64 @@ transition: .4s;
  color: red;
 
   }
+  
+
+  /* Animamtions */
+
+  .links{
+
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    transform-origin: bottom;
+
+  }
+
+  .header-text {
+
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    transform-origin: bottom;
+
+  }
+
+
+
+
+  /* Keyframes */
+
+  @keyframes bounce {
+
+    0% {
+      transform: translateY(-50vh);
+ 
+    }
+
+    50% {
+
+   color: red;
+
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+
+  }
+
+  @keyframes animate-links {
+
+    0% {
+      background-position: 0%;
+     }
+
+    100% {
+      background-position: 400%;
+    }
+
+  }
+  
 
 
   /* media queries */
